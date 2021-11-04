@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  background: linear-gradient(#87CEFA, #00BFFF);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding-top: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-button {
+  text-align: center;
+}
+
+.add {
+  background-color: #ffffe0;
+  color: #000000;
+  border: none;
+  border-radius: 3px;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.add i {
+    margin-right: 0.2rem;
+}
+
+.nota {
+  background-color: #ffffe0;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
+  margin: 30px 20px;
+  height: 300px;
+  width: 300px;
+  font-size: 1.5rem;
+}
+
+.nota .ferramentas {
+  background-color: #ffffe0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.nota .ferramentas button {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.nota textarea {
+  background-color: #ffffe0;
+  outline: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  height: 250px;
+  width: 100%;
+  padding: 20px;
+  resize: none;
+}
+
+.main {
+  padding: 20px;
+}
+
+.escondido {
+  display: none;
+}
